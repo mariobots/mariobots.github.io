@@ -9,3 +9,14 @@ body {
     text-shadow: #000000 1px 1px 3px;
     font-family: 'Big Shoulders Text', cursive;
 }
+
+.firstbox {
+    padding: 5px;
+    background-color: #F2E7D5;
+    color: #000000;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px;
+    text-shadow: #848484 1px 1px 3px;
+    margin: 10px;
+    width: 50%;
+}
