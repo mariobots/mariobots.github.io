@@ -10,7 +10,7 @@ body {
     font-family: 'Big Shoulders Text', cursive;
 }
 
-.firstbox {
+.textbox {
     padding: 10px;
     background-color: #F2E7D5;
     color: #000000;
@@ -19,4 +19,10 @@ body {
     text-shadow: #6D9886 1px 1px 3px;
     margin: 10px;
     width: 50%;
+}
+
+.evil {
+    color: red;
+    box-shadow: 1px 1px 3px black;
+    text-align: end;
 }
