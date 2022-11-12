@@ -1,9 +1,10 @@
 body {
     background-color: #393E46;
     color: #F7F7F7;
+    text-shadow: #000000 1px 1px 3px;
 }
 .head {
     font-size: xx-large;
     color: #6D9886;
-    text-shadow: #F2E7D5 1px 1px 3px;
+    text-shadow: #000000 1px 1px 3px;
 }
