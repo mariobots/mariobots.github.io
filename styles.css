@@ -2,12 +2,17 @@ body {
     background-color: #393E46;
     color: #F7F7F7;
     text-shadow: #000000 1px 1px 3px;
+    
 }
 .head {
-    font-size: xx-large;
+    font-size:xx-large;
     color: #6D9886;
     text-shadow: #000000 1px 1px 3px;
     font-family: 'Big Shoulders Text', cursive;
+    /* margin:auto; */
+    max-width: fit-content;
+    transform: rotate(-5deg);
+    
 }
 
 .textbox {
@@ -15,13 +20,17 @@ body {
     background-color: #F2E7D5;
     color: #000000;
     border-radius: 8px;
-    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgb(151, 141, 141);
     text-shadow: #6D9886 1px 1px 3px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 50%;
+    transform: rotate(-.5deg);
 }
 
 .evil {
     color: red;
     text-align: end;
+    transform: rotate(.5deg);
 }

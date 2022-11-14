@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mariobots</title>
+    <title>@mariobots</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div class="head">mariobots</div>
+    <div class="head">@mariobots</div>
     <div class="container">
-        123/456
+        <span id="datetime"></span>
+        <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+        </script>
     </div>
     <div class="textbox">
         This is my first time publishing to github. This is not my first time using github. 
     </div>
     <div class="textbox evil">num 2 box with other words and stuff</div>
+
+    <div class="textbox evil">
+        This is my first time publishing to github. This is not my first time using github. 
+    </div>
+    <div class="textbox">num 2 box with other words and stuff</div>
 </body>
 </html>
